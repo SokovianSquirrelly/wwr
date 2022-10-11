@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Chewy&family=Noto+Sans&display=swap');
+
 #background
 {
     height: 725px;
     background-color: #56CBF9;
+    margin: 10px;
 }
 
 #content
@@ -10,14 +13,19 @@
     margin: 0, auto;
 }
 
-#hero_img
+#hero-img
 {
     width: 100%;
 }
 
-#hero_msg h1, #hero_msg h4
+#hero-msg h1, #hero-msg h4
 {
     text-align: center;
+}
+
+#logo-link
+{
+    padding-top: 5px;
 }
 
 .book, .join
@@ -25,6 +33,10 @@
     background-color: #2A4494;
     color: #81F4E1;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover
@@ -33,49 +45,86 @@
     color: #3D3B30;
 }
 
-.button_box
+.button-box
 {
     text-align: center;
+}
+
+.card-img
+{
+    border: 10px solid #2A4494;
+}
+
+.home-grid
+{
+    font-family: 'Carter One', cursive;
 }
 
 .home-title
 {
     color: #3D3B30;
+    font-family: 'Carter One', cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon
 {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo
 {
     width: 80px;
+    border-radius: 50%;
 }
 
 .msg
 {
     background-color: #56CBF9;
+    font-size: .8em;
+    line-height: 1.5em;
+    font-family: Noto Sans, Lato, Helvetica, sans-serif;
+    padding: 35px;
 }
 
 .msg h2
 {
     color: #3D3B30;
+    font-family: 'Carter One', cursive;
 }
 
 .msg p
 {
     color: #3D3B30;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card
+{
+    margin: 200px 0;
 }
 
 body
 {
     background-color: #81F4E1;
+    font-family: Noto Sans, Lato, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 footer
 {
     background-color: #56CBF9;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img
+{
+    margin-top: 15px;
+    border-radius: 50%
 }
 
 footer h3
@@ -104,6 +153,11 @@ footer p a:hover
     text-decoration: underline;
 }
 
+h2
+{
+    margin: 0;
+}
+
 h4
 {
     color: #3D3B30;
@@ -119,11 +173,17 @@ main section
     text-align: center;
 }
 
+main section img
+{
+    box-sizing: border-box;
+}
+
 nav a
 {
     text-align: center;
     color: #81F4E1;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover
