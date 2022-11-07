@@ -1,0 +1,26 @@
+.banner
+{
+    width: 100%;
+}
+
+.faq_format
+{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.question
+{
+    font-weight: bold;
+}
+
+h1
+{
+    font-family: 'Carter One', cursive;
+}
+
+hr
+{
+    height: 3px;
+    background: #3D3B30;
+}
